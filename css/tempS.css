@@ -1,0 +1,45 @@
+
+
+#trick{float: left;}
+
+#contain{ padding-left: 5%;
+padding-right: 5%;
+padding-top: 25%;
+padding-bottom: 15px;
+text-align: center;
+}
+
+.header{
+height: 0px;
+
+
+padding-left: 20%;
+padding-right: 10%;
+padding-top: 0;
+margin-top:30px;
+margin-bottom: 2%;
+}
+
+
+p{padding-bottom: 6px;
+font-size: 1em;
+line-height: 1.5em;
+}
+
+
+
+/* .links{position: fixed; bottom: 0; margin: 0 auto;float: none;} */
+
+
+
+h1{font-size: 1.75em;letter-spacing: -0.01em;
+line-height: 22px;padding-bottom: 1em;}
+
+
+.links a, a:visited{font-size: 1.75em;}
+
+.links{margin-top: 1em;}
+		 
+
+
+

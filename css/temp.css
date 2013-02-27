@@ -1,0 +1,182 @@
+
+body, div, dl, dt, dd, ul, ol, li,
+h1, h2, h3, h4, h5, h6,
+pre, form, fieldset, input, textarea,
+p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+        background: #e0e0e0; /* Safari */}
+::-moz-selection {
+        background: #e0e0e0; }/* Firefox */
+
+
+
+
+body{
+	color: #ffffff; 
+	font-family: "skolar-1","skolar-2",serif;
+	letter-spacing: -0.02em;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	
+
+	}
+
+html{height: 100%;
+width: 100%;
+background: #0066aa; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #0066aa 0%, #39b2aa 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#0066aa), color-stop(100%,#39b2aa)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(45deg,  #0066aa 0%,#39b2aa 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(45deg,  #0066aa 0%,#39b2aa 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(45deg,  #0066aa 0%,#39b2aa 100%); /* IE10+ */
+background: linear-gradient(45deg,  #0066aa 0%,#39b2aa 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0066aa', endColorstr='#39b2aa',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+
+}
+
+
+
+.links a, a:visited {font-size: 2.25em;}
+
+
+
+a, a:visited {
+
+text-decoration:none;
+-webkit-transition: all 0.75s ease;
+-moz-transition: all  0.75s ease;
+-o-transition: all  0.75s ease;
+  transition: all  0.75s ease;
+color: #fff;
+
+}
+
+a:hover{
+color: #999;
+-webkit-transition: all  0.75s ease;
+-moz-transition: all  0.75s ease;
+-o-transition: all  0.75s ease;
+  transition: all  0.75s ease;
+  }
+  
+  
+a:active{color:red;}
+
+.header{ padding-left: 40%;
+padding-right: 20%;
+padding-top:15px ;
+margin-top: 0;
+margin-bottom: 15%;
+height: 5px;
+}
+
+hr{color: #a6c1c6;
+
+border-top: solid 1px #828282;
+border-bottom: solid 1px #fff;
+border-left: none;
+border-right:none;
+}
+	
+
+#bgcontain{height:100%;
+			width:100%;	
+					
+			}
+		
+
+#contain{ padding-left: 20%;
+padding-right: 20%;
+padding-top: 20%;
+padding-bottom: 25px;
+position: static;
+height: 20%;
+max-width: 800px;
+margin: 0 auto;	  
+}
+
+
+p{padding-bottom: 10px;
+font-size: 1.75em;
+line-height: 1.5em;	
+font-weight: 400;}
+p a{text-decoration: underline;}
+
+h1{ font-size: 60px;font-weight: 700; padding-bottom: 80px;line-height: 20px;
+}
+
+.twitter{
+
+
+	}
+	
+.twitter:hover{}	
+
+#twitter_update_list li {list-style-type: none;}
+
+.links{ width:100%;display: inline; float: left; margin-left: -3px; margin-top: 1em;}
+.links p{line-break: 14px; padding:10px 0;}
+.links p a{margin-right: 10px; padding: 3px;}
+.links p a img{ padding:0 8px 5px 0}
+
+
+
+
+/*
+#tweet:hover{background-color: #00a0d1;}
+#fb:hover{background-color: #7696e7;}
+#li:hover{background-color: #8bd3ea;}
+#lf:hover{background-color: #f3324f; }
+#sv:hover{background-color: #171616; }
+#hm:hover{background-color: #9fde7b;}
+*/
+
+
+.rightcol{width: 100%; float: left; }
+.social{float: left;padding-bottom: 4px; clear: both;width: 100%;}
+
+
+
+blockquote b {
+  display: block;
+  text-indent: 0; }
+  
+  
+  
+
+ 
+
+
+
+
+
+/* THIS IS THE FADE CODE :::::::::: 
+@-webkit-keyframes reset {
+0% {opacity: 0;}
+100% {opacity: 0;}}
+ 
+@-webkit-keyframes fade-in {
+0% {opacity: 0;}
+60% {opacity: 0;}
+100% {opacity: 1;}}
+
+.fade-in {
+    -webkit-animation-name: reset, fade-in;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-iteration-count: 1;
+}
+ 
+.fade-in.one {-webkit-animation-delay: 0, 0;}
+.fade-in.two {-webkit-animation-delay: 0, 2s;}
+.fade-in.three {-webkit-animation-delay: 0, 3s;}
+
+*/
+
+	

@@ -1,0 +1,21 @@
+#contain{ padding-left: 10%;
+padding-right: 10%;
+padding-top: 10%;
+}
+.header{ padding-left: 20%;
+padding-right: 10%;
+padding-top: 5px;
+margin-top: 0
+margin-bottom:;}
+h1{font-size: 2em; padding-bottom: 5%;}
+
+.links a, a:visited{font-size: 2em;}
+
+p{padding-bottom: 8px;
+font-size: 1.5em;
+line-height: 1.5em;}
+
+.links p a img{ padding:0 5px 5px 0}
+.links p a {margin-right: 5px; font-size: 2em;}
+
+
